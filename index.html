@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>はるかぜ整体院 | 一宮市の整体・骨盤矯正</title>
+  <meta name="description" content="一宮市のはるかぜ整体院。腰痛・肩こり・骨盤矯正専門。国家資格保有。完全予約制。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+  <header id="header">
+    <nav class="nav-inner">
+      <a href="#hero" class="nav-logo">はるかぜ<span>整体院</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#symptoms">お悩み</a></li>
+        <li><a href="#flow">施術の流れ</a></li>
+        <li><a href="#doctor">院長</a></li>
+        <li><a href="#menu">料金</a></li>
+        <li><a href="#reviews">口コミ</a></li>
+        <li><a href="#contact" class="nav-cta">予約する</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <!-- Sticky tel bar -->
+  <div id="tel-bar">
+    <span>完全予約制 ・ 当日予約OK ・ 駐車場3台</span>
+    <span class="tel-bar-number"><a href="tel:0586-XX-XXXX">0586-XX-XXXX</a></span>
+    <span class="tel-bar-hours">受付 10:00〜19:00（木・日定休）</span>
+  </div>
+
+  <!-- Hero: split navy / photo -->
+  <section id="hero">
+    <div class="hero-left">
+      <span class="hero-label">はるかぜ整体院 ／ 一宮市</span>
+      <h1 class="hero-title">その痛み、<br><em>根本から</em><br>解決します。</h1>
+      <p class="hero-desc">マッサージで一時的に楽になっても、また戻ってくる——<br>それは<strong>原因を取り除いていないから</strong>です。<br>国家資格保有の院長が、痛みの本質にアプローチします。</p>
+      <div class="hero-cta-group">
+        <a href="tel:0586-XX-XXXX" class="btn-primary-hero">📞 今すぐ電話予約</a>
+        <a href="#contact" class="btn-outline-hero">フォームで予約</a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge">施術歴8年・累計2,400名</span>
+        <span class="hero-badge">Google評価 4.8★</span>
+        <span class="hero-badge">初回体験 ¥3,300</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=900&h=1100&fit=crop&q=80" alt="整体院施術イメージ">
+    </div>
+  </section>
+
+  <!-- Stats band -->
+  <section id="stats">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-num">2,400<span>名</span></div>
+        <div class="stat-label">累計施術数</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4.8<span>★</span></div>
+        <div class="stat-label">Google平均評価</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">8<span>年</span></div>
+        <div class="stat-label">施術歴</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2<span>種</span></div>
+        <div class="stat-label">国家資格保有</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お悩み：症状タブ -->
+  <section id="symptoms">
+    <div class="container">
+      <span class="section-label fade-in">YOUR SYMPTOMS</span>
+      <h2 class="section-title fade-in">こんなお悩みありませんか？</h2>
+      <div class="section-bar fade-in"></div>
+      <div class="symptom-tabs fade-in">
+        <button class="stab active" data-panel="back">腰痛・ぎっくり腰</button>
+        <button class="stab" data-panel="shoulder">肩こり・首こり</button>
+        <button class="stab" data-panel="pelvis">産後の骨盤ゆがみ</button>
+        <button class="stab" data-panel="head">頭痛・めまい</button>
+        <button class="stab" data-panel="knee">膝・股関節痛</button>
+        <button class="stab" data-panel="sports">スポーツ障害</button>
+      </div>
+      <div class="symptom-panels">
+        <div class="symptom-panel active" id="spanel-back">
+          <div class="spanel-text">
+            <h3>腰痛・ぎっくり腰</h3>
+            <p>デスクワーク・重労働・育児など、さまざまな原因で起こる腰痛。痛みが慢性化する前に、骨盤のゆがみ・筋肉のアンバランスを正しましょう。</p>
+            <div class="spanel-causes">
+              <span class="spanel-cause">骨盤の前傾・後傾による腰への負担</span>
+              <span class="spanel-cause">深層筋（インナーマッスル）の機能低下</span>
+              <span class="spanel-cause">姿勢習慣・重心の偏り</span>
+            </div>
+          </div>
+          <div class="spanel-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=450&fit=crop&q=80" alt="腰痛ケア"></div>
+        </div>
+        <div class="symptom-panel" id="spanel-shoulder">
+          <div class="spanel-text">
+            <h3>肩こり・首こり</h3>
+            <p>スマートフォン・パソコン作業による「ストレートネック」が現代病に。根本原因となる頸椎・胸椎のアライメントを整えます。</p>
+            <div class="spanel-causes">
+              <span class="spanel-cause">頸椎・胸椎の可動域制限</span>
+              <span class="spanel-cause">前傾姿勢による僧帽筋への過負荷</span>
+              <span class="spanel-cause">ストレートネック・首の前方変位</span>
+            </div>
+          </div>
+          <div class="spanel-img"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=450&fit=crop&q=80" alt="肩こりケア"></div>
+        </div>
+        <div class="symptom-panel" id="spanel-pelvis">
+          <div class="spanel-text">
+            <h3>産後の骨盤ゆがみ</h3>
+            <p>出産により緩んだ骨盤靱帯は、産後6ヶ月が矯正のゴールデンタイム。ぽっこりお腹・腰痛・尿もれの改善に。</p>
+            <div class="spanel-causes">
+              <span class="spanel-cause">分娩時の恥骨・仙腸関節の可動</span>
+              <span class="spanel-cause">骨盤底筋群の機能低下</span>
+              <span class="spanel-cause">授乳姿勢・抱っこによる歪み蓄積</span>
+            </div>
+          </div>
+          <div class="spanel-img"><img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?w=600&h=450&fit=crop&q=80" alt="産後ケア"></div>
+        </div>
+        <div class="symptom-panel" id="spanel-head">
+          <div class="spanel-text">
+            <h3>頭痛・めまい</h3>
+            <p>緊張型頭痛の多くは、頸椎周辺の筋緊張・血流低下が原因。頚部の調整と自律神経へのアプローチで改善を図ります。</p>
+            <div class="spanel-causes">
+              <span class="spanel-cause">頸椎の位置異常による神経圧迫</span>
+              <span class="spanel-cause">後頭下筋群の過緊張</span>
+              <span class="spanel-cause">自律神経の乱れ・血流不足</span>
+            </div>
+          </div>
+          <div class="spanel-img"><img src="https://images.unsplash.com/photo-1550439062-609e1531270e?w=600&h=450&fit=crop&q=80" alt="頭痛ケア"></div>
+        </div>
+        <div class="symptom-panel" id="spanel-knee">
+          <div class="spanel-text">
+            <h3>膝・股関節の痛み</h3>
+            <p>膝や股関節の痛みは、上位関節（骨盤・腰椎）の問題が波及しているケースが多数。全身のバランス調整で痛みを取り除きます。</p>
+            <div class="spanel-causes">
+              <span class="spanel-cause">骨盤の歪みによる脚長差</span>
+              <span class="spanel-cause">大腿筋膜張筋・腸腰筋の拘縮</span>
+              <span class="spanel-cause">X脚・O脚による膝関節への負荷</span>
+            </div>
+          </div>
+          <div class="spanel-img"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=450&fit=crop&q=80" alt="膝股関節ケア"></div>
+        </div>
+        <div class="symptom-panel" id="spanel-sports">
+          <div class="spanel-text">
+            <h3>スポーツ障害</h3>
+            <p>捻挫・肉離れ・疲労骨折など、スポーツによる障害にも対応。早期回復と再発予防のセルフケア指導も行います。</p>
+            <div class="spanel-causes">
+              <span class="spanel-cause">筋肉の柔軟性不足・疲労蓄積</span>
+              <span class="spanel-cause">フォームの問題による特定部位への過負荷</span>
+              <span class="spanel-cause">関節の安定性不足（体幹・股関節）</span>
+            </div>
+          </div>
+          <div class="spanel-img"><img src="https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&h=450&fit=crop&q=80" alt="スポーツケア"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 施術の流れ（zigzag） -->
+  <section id="flow">
+    <div class="container" style="max-width:100%;padding:0;">
+      <div style="max-width:1000px;margin:0 auto;padding:0 24px 56px;">
+        <span class="section-label fade-in">FLOW</span>
+        <h2 class="section-title fade-in">施術の流れ</h2>
+        <div class="section-bar fade-in"></div>
+      </div>
+      <div class="flow-step fade-in">
+        <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=450&fit=crop&q=80" alt="カウンセリング"></div>
+        <div class="flow-step-body">
+          <div class="flow-step-num">01</div>
+          <h3>カウンセリング</h3>
+          <p>症状・生活習慣・お悩みを30分かけて丁寧にヒアリング。「なぜ痛みが出るのか」の原因特定から始めます。再発を防ぐために、根本原因の把握が最も重要です。</p>
+        </div>
+      </div>
+      <div class="flow-step fade-in">
+        <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=450&fit=crop&q=80" alt="姿勢分析"></div>
+        <div class="flow-step-body">
+          <div class="flow-step-num">02</div>
+          <h3>姿勢・動作分析</h3>
+          <p>立ち姿・歩き方・可動域を多角的にチェック。左右差・前後傾・骨格のアライメントを把握し、歪みのパターンを特定します。</p>
+        </div>
+      </div>
+      <div class="flow-step fade-in">
+        <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&h=450&fit=crop&q=80" alt="施術"></div>
+        <div class="flow-step-body">
+          <div class="flow-step-num">03</div>
+          <h3>施術</h3>
+          <p>原因に合わせた手技で丁寧に施術。強い力を使わないソフト整体なので、痛みが苦手な方や高齢の方にも対応しています。施術中は状態を随時確認しながら進めます。</p>
+        </div>
+      </div>
+      <div class="flow-step fade-in">
+        <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=450&fit=crop&q=80" alt="セルフケア指導"></div>
+        <div class="flow-step-body">
+          <div class="flow-step-num">04</div>
+          <h3>セルフケア指導</h3>
+          <p>日常でできるストレッチ・姿勢改善アドバイスをわかりやすく指導。「通わなくていい身体」になるためのホームケアが再発防止の鍵です。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 院長紹介 -->
+  <section id="doctor">
+    <div class="doctor-inner">
+      <div class="doctor-img fade-in">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=500&fit=crop&q=80" alt="田中健一院長">
+      </div>
+      <div class="doctor-text fade-in">
+        <span class="section-label">DOCTOR</span>
+        <h2 class="section-title">院長紹介</h2>
+        <div class="section-bar"></div>
+        <p class="doctor-name">田中 健一</p>
+        <p class="doctor-name-en">Kenichi Tanaka</p>
+        <p class="doctor-role">はるかぜ整体院 院長</p>
+        <div class="doctor-tags">
+          <span class="doctor-tag">柔道整復師（国家資格）</span>
+          <span class="doctor-tag">鍼灸師（国家資格）</span>
+          <span class="doctor-tag">施術歴8年</span>
+          <span class="doctor-tag">累計2,400名以上</span>
+        </div>
+        <p class="doctor-bio">整形外科・接骨院での勤務を経て独立開業。「痛みを取るだけでなく、なぜ痛みが出たのかを解決する」という考えのもと、根本改善を重視した施術を行っています。産後ケアや慢性痛でお悩みの方を中心に、これまで2,400名以上の施術実績があります。</p>
+        <div class="doctor-quote-block">
+          <p>「一時的に楽になるだけでなく、通わなくていい身体になることが目標です。患者さんの日常を変えることが、私の仕事だと思っています。」</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 施術メニュー・料金 -->
+  <section id="menu">
+    <div class="container">
+      <span class="section-label fade-in">MENU & PRICE</span>
+      <h2 class="section-title fade-in">施術メニュー・料金</h2>
+      <div class="section-bar fade-in"></div>
+      <table class="menu-table fade-in">
+        <thead>
+          <tr>
+            <th>メニュー</th>
+            <th>時間</th>
+            <th style="text-align:right">料金（税込）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="menu-name">全身整体</div><div class="menu-desc">全身のゆがみを整え、血流・神経の流れを改善。慢性疲労・だるさにも。</div></td>
+            <td><div class="menu-duration">60分</div></td>
+            <td class="menu-price-cell">¥6,600</td>
+          </tr>
+          <tr class="featured">
+            <td><div class="menu-name">骨盤矯正 <span class="menu-badge">人気No.1</span></div><div class="menu-desc">産後の骨盤ケアや、デスクワークによるゆがみ改善に特化。</div></td>
+            <td><div class="menu-duration">75分</div></td>
+            <td class="menu-price-cell">¥8,800</td>
+          </tr>
+          <tr>
+            <td><div class="menu-name">産後ケア</div><div class="menu-desc">出産後の骨盤の開き・ゆがみを丁寧に矯正。育児疲れの肩・腰もケア。</div></td>
+            <td><div class="menu-duration">90分</div></td>
+            <td class="menu-price-cell">¥9,900</td>
+          </tr>
+          <tr>
+            <td><div class="menu-name">スポーツケア</div><div class="menu-desc">筋肉疲労・関節痛のケア。パフォーマンス向上・怪我予防にも対応。</div></td>
+            <td><div class="menu-duration">60分</div></td>
+            <td class="menu-price-cell">¥7,700</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="first-trial-bar fade-in">
+        <span>🎁 初回体験（全身整体60分）</span>
+        <span>通常¥6,600 → <em>¥3,300</em></span>
+        <span style="font-size:0.8rem;opacity:0.8">※お一人様1回限り</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 口コミ -->
+  <section id="reviews">
+    <div class="container">
+      <span class="section-label fade-in">REVIEWS</span>
+      <h2 class="section-title fade-in">お客様の声</h2>
+      <div class="section-bar fade-in"></div>
+      <div class="reviews-list">
+        <div class="review-item fade-in">
+          <div class="review-avatar">👤</div>
+          <div>
+            <div class="review-stars">★★★★★<span class="review-tag">腰痛</span></div>
+            <p class="review-text">10年悩んでいた腰痛が5回の施術でほぼ気にならなくなりました。原因をきちんと説明してくれるので信頼できます。他院で「異常なし」と言われた痛みも改善しました。</p>
+            <p class="review-author">Aさん（40代・会社員）</p>
+          </div>
+        </div>
+        <div class="review-item fade-in">
+          <div class="review-avatar">👤</div>
+          <div>
+            <div class="review-stars">★★★★★<span class="review-tag">産後ケア</span></div>
+            <p class="review-text">産後の骨盤ケアでお世話になりました。施術後に身体が軽くなるのがわかります。子連れでも来やすい雰囲気で助かっています。</p>
+            <p class="review-author">Bさん（30代・産後6ヶ月）</p>
+          </div>
+        </div>
+        <div class="review-item fade-in">
+          <div class="review-avatar">👤</div>
+          <div>
+            <div class="review-stars">★★★★★<span class="review-tag">肩こり</span></div>
+            <p class="review-text">デスクワークで肩こりがひどかったのですが、セルフケアの方法も教えていただき、日常生活が楽になりました。院長の説明がわかりやすく、納得して施術を受けられます。</p>
+            <p class="review-author">Cさん（20代・IT系）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <span class="section-label fade-in">FAQ</span>
+      <h2 class="section-title fade-in">よくある質問</h2>
+      <div class="section-bar fade-in"></div>
+      <div class="faq-list">
+        <div class="faq-item fade-in"><button class="faq-q">初めてでも大丈夫ですか？</button><div class="faq-a"><p>はい。初回は丁寧なカウンセリングから始めます。お着替えもご用意しています。</p></div></div>
+        <div class="faq-item fade-in"><button class="faq-q">施術中に痛みはありますか？</button><div class="faq-a"><p>強い力を使わないソフト整体が基本です。痛みが苦手な方もご安心ください。</p></div></div>
+        <div class="faq-item fade-in"><button class="faq-q">何回通えば効果が出ますか？</button><div class="faq-a"><p>多くの方が3〜5回で変化を実感されています。初回に目安をご説明します。</p></div></div>
+        <div class="faq-item fade-in"><button class="faq-q">保険は使えますか？</button><div class="faq-a"><p>整体施術は保険適用外です。ただし骨折・脱臼・捻挫等の急性外傷は対応可能な場合があります。</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス・予約 -->
+  <section id="contact">
+    <div class="container">
+      <span class="section-label fade-in">ACCESS & CONTACT</span>
+      <h2 class="section-title fade-in">アクセス・ご予約</h2>
+      <div class="section-bar fade-in"></div>
+      <div class="access-contact-grid fade-in">
+        <div>
+          <table class="access-info-table">
+            <tr><td>院名</td><td>はるかぜ整体院</td></tr>
+            <tr><td>住所</td><td>愛知県一宮市栄2-10-XX</td></tr>
+            <tr><td>電話</td><td><a href="tel:0586-XX-XXXX">0586-XX-XXXX</a></td></tr>
+            <tr><td>営業時間</td><td>10:00〜20:00（最終受付19:00）</td></tr>
+            <tr><td>定休日</td><td>木曜日・日曜日</td></tr>
+            <tr><td>駐車場</td><td>3台あり（無料）</td></tr>
+          </table>
+          <div class="map-placeholder">📍 Google Maps</div>
+        </div>
+        <div>
+          <div class="contact-cta-group">
+            <a href="tel:0586-XX-XXXX" class="btn-tel-big">📞 0586-XX-XXXX<span>受付 10:00〜19:00（木・日除く）</span></a>
+            <a href="https://line.me/R/ti/p/@example" class="btn-line-big" target="_blank">🟢 LINEで予約する</a>
+          </div>
+          <form class="contact-form" onsubmit="return false;">
+            <div class="form-group"><label>お名前 <span class="req">必須</span></label><input type="text" placeholder="田中 花子"></div>
+            <div class="form-group"><label>電話番号 <span class="req">必須</span></label><input type="tel" placeholder="090-XXXX-XXXX"></div>
+            <div class="form-group"><label>ご希望メニュー</label>
+              <select><option value="">選択してください</option><option>全身整体（60分）</option><option>骨盤矯正（75分）</option><option>産後ケア（90分）</option><option>スポーツケア（60分）</option><option>初回体験（¥3,300）</option></select>
+            </div>
+            <div class="form-group"><label>症状・ご要望</label><textarea rows="3" placeholder="例）腰痛が3ヶ月続いています。土曜希望です。"></textarea></div>
+            <button type="submit" class="btn-submit">予約を申し込む →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p class="footer-logo">はるかぜ整体院</p>
+    <p>〒491-XXXX 愛知県一宮市栄2-10-XX　TEL: 0586-XX-XXXX</p>
+    <p style="margin-top:6px">© 2024 はるかぜ整体院</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
