@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アクセス・ご予約 | はるかぜ整体院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+  <header id="header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">はるかぜ<span>整体院</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="menu.html">施術メニュー</a></li>
+        <li><a href="staff.html">院長・当院について</a></li>
+        <li><a href="faq.html">よくある質問</a></li>
+        <li><a href="access.html" class="nav-cta" style="background:var(--teal)!important">アクセス・予約</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+  <div id="tel-bar">
+    <span>完全予約制 ・ 当日予約OK ・ 駐車場3台</span>
+    <span class="tel-bar-number"><a href="tel:0586-XX-XXXX">0586-XX-XXXX</a></span>
+    <span class="tel-bar-hours">受付 10:00〜19:00（木・日定休）</span>
+  </div>
+
+  <section style="background:var(--navy);padding:80px 0 48px;margin-top:88px;text-align:center">
+    <span class="section-label" style="color:var(--teal-light)">ACCESS & CONTACT</span>
+    <h1 style="color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;margin-top:10px">アクセス・ご予約</h1>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="access-contact-grid fade-in">
+        <div>
+          <span class="section-label">ACCESS</span>
+          <h2 class="section-title">アクセス情報</h2>
+          <div class="section-bar"></div>
+          <table class="access-info-table">
+            <tr><td>院名</td><td>はるかぜ整体院</td></tr>
+            <tr><td>住所</td><td>愛知県一宮市栄2-10-XX</td></tr>
+            <tr><td>電話</td><td><a href="tel:0586-XX-XXXX">0586-XX-XXXX</a></td></tr>
+            <tr><td>営業時間</td><td>10:00〜20:00（最終受付19:00）</td></tr>
+            <tr><td>定休日</td><td>木曜日・日曜日</td></tr>
+            <tr><td>駐車場</td><td>3台あり（無料）</td></tr>
+            <tr><td>最寄り駅</td><td>名鉄一宮駅より徒歩12分</td></tr>
+          </table>
+          <div class="map-placeholder">📍 Google Maps</div>
+        </div>
+        <div>
+          <span class="section-label">RESERVATION</span>
+          <h2 class="section-title">ご予約・お問い合わせ</h2>
+          <div class="section-bar"></div>
+          <div class="contact-cta-group">
+            <a href="tel:0586-XX-XXXX" class="btn-tel-big">📞 0586-XX-XXXX<span>受付 10:00〜19:00（木・日除く）</span></a>
+            <a href="https://line.me/R/ti/p/@example" class="btn-line-big" target="_blank" rel="noopener">🟢 LINEで予約する</a>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/xxxxxxxx" method="POST">
+            <div class="form-group"><label>お名前 <span class="req">必須</span></label><input type="text" name="name" placeholder="田中 花子" required></div>
+            <div class="form-group"><label>電話番号 <span class="req">必須</span></label><input type="tel" name="tel" placeholder="090-XXXX-XXXX" required></div>
+            <div class="form-group"><label>ご希望メニュー</label>
+              <select name="menu">
+                <option value="">選択してください</option>
+                <option>全身整体（60分）</option>
+                <option>骨盤矯正（75分）</option>
+                <option>産後ケア（90分）</option>
+                <option>スポーツケア（60分）</option>
+                <option>初回体験（¥3,300）</option>
+              </select>
+            </div>
+            <div class="form-group"><label>症状・ご要望</label><textarea name="message" rows="3" placeholder="例）腰痛が3ヶ月続いています。土曜希望です。"></textarea></div>
+            <button type="submit" class="btn-submit">予約を申し込む →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p class="footer-logo">はるかぜ整体院</p>
+    <nav style="margin:12px 0;display:flex;gap:24px;justify-content:center;flex-wrap:wrap">
+      <a href="menu.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">施術メニュー</a>
+      <a href="staff.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">院長・当院について</a>
+      <a href="faq.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">よくある質問</a>
+      <a href="access.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">アクセス・予約</a>
+    </nav>
+    <p>〒491-XXXX 愛知県一宮市栄2-10-XX　TEL: 0586-XX-XXXX</p>
+    <p style="margin-top:6px">© 2024 はるかぜ整体院</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

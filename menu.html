@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>施術メニュー・料金 | はるかぜ整体院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+  <header id="header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">はるかぜ<span>整体院</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="menu.html" style="color:#fff">施術メニュー</a></li>
+        <li><a href="staff.html">院長・当院について</a></li>
+        <li><a href="faq.html">よくある質問</a></li>
+        <li><a href="access.html" class="nav-cta">アクセス・予約</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+  <div id="tel-bar">
+    <span>完全予約制 ・ 当日予約OK ・ 駐車場3台</span>
+    <span class="tel-bar-number"><a href="tel:0586-XX-XXXX">0586-XX-XXXX</a></span>
+    <span class="tel-bar-hours">受付 10:00〜19:00（木・日定休）</span>
+  </div>
+
+  <!-- ページヘッダー -->
+  <section style="background:var(--navy);padding:80px 0 48px;margin-top:88px;text-align:center">
+    <span class="section-label" style="color:var(--teal-light)">MENU & PRICE</span>
+    <h1 style="color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;margin-top:10px">施術メニュー・料金</h1>
+  </section>
+
+  <!-- 施術の流れ -->
+  <section id="flow">
+    <div style="max-width:1000px;margin:0 auto;padding:0 24px 56px;">
+      <span class="section-label fade-in">FLOW</span>
+      <h2 class="section-title fade-in">施術の流れ</h2>
+      <div class="section-bar fade-in"></div>
+    </div>
+    <div class="flow-step fade-in">
+      <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=450&fit=crop&q=80" alt="カウンセリング"></div>
+      <div class="flow-step-body">
+        <div class="flow-step-num">01</div>
+        <h3>カウンセリング</h3>
+        <p>症状・生活習慣・お悩みを30分かけて丁寧にヒアリング。「なぜ痛みが出るのか」の原因特定から始めます。再発を防ぐために、根本原因の把握が最も重要です。</p>
+      </div>
+    </div>
+    <div class="flow-step fade-in">
+      <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=450&fit=crop&q=80" alt="姿勢分析"></div>
+      <div class="flow-step-body">
+        <div class="flow-step-num">02</div>
+        <h3>姿勢・動作分析</h3>
+        <p>立ち姿・歩き方・可動域を多角的にチェック。左右差・前後傾・骨格のアライメントを把握し、歪みのパターンを特定します。</p>
+      </div>
+    </div>
+    <div class="flow-step fade-in">
+      <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&h=450&fit=crop&q=80" alt="施術"></div>
+      <div class="flow-step-body">
+        <div class="flow-step-num">03</div>
+        <h3>施術</h3>
+        <p>原因に合わせた手技で丁寧に施術。強い力を使わないソフト整体なので、痛みが苦手な方や高齢の方にも対応しています。</p>
+      </div>
+    </div>
+    <div class="flow-step fade-in">
+      <div class="flow-step-img"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=450&fit=crop&q=80" alt="セルフケア指導"></div>
+      <div class="flow-step-body">
+        <div class="flow-step-num">04</div>
+        <h3>セルフケア指導</h3>
+        <p>日常でできるストレッチ・姿勢改善アドバイスをわかりやすく指導。「通わなくていい身体」になるためのホームケアが再発防止の鍵です。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 施術メニュー・料金 -->
+  <section id="menu" style="background:var(--bg)">
+    <div class="container">
+      <span class="section-label fade-in">MENU & PRICE</span>
+      <h2 class="section-title fade-in">施術メニュー・料金</h2>
+      <div class="section-bar fade-in"></div>
+      <table class="menu-table fade-in">
+        <thead>
+          <tr>
+            <th>メニュー</th>
+            <th>時間</th>
+            <th style="text-align:right">料金（税込）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="menu-name">全身整体</div><div class="menu-desc">全身のゆがみを整え、血流・神経の流れを改善。慢性疲労・だるさにも。</div></td>
+            <td><div class="menu-duration">60分</div></td>
+            <td class="menu-price-cell">¥6,600</td>
+          </tr>
+          <tr class="featured">
+            <td><div class="menu-name">骨盤矯正 <span class="menu-badge">人気No.1</span></div><div class="menu-desc">産後の骨盤ケアや、デスクワークによるゆがみ改善に特化。</div></td>
+            <td><div class="menu-duration">75分</div></td>
+            <td class="menu-price-cell">¥8,800</td>
+          </tr>
+          <tr>
+            <td><div class="menu-name">産後ケア</div><div class="menu-desc">出産後の骨盤の開き・ゆがみを丁寧に矯正。育児疲れの肩・腰もケア。</div></td>
+            <td><div class="menu-duration">90分</div></td>
+            <td class="menu-price-cell">¥9,900</td>
+          </tr>
+          <tr>
+            <td><div class="menu-name">スポーツケア</div><div class="menu-desc">筋肉疲労・関節痛のケア。パフォーマンス向上・怪我予防にも対応。</div></td>
+            <td><div class="menu-duration">60分</div></td>
+            <td class="menu-price-cell">¥7,700</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="first-trial-bar fade-in">
+        <span>🎁 初回体験（全身整体60分）</span>
+        <span>通常¥6,600 → <em>¥3,300</em></span>
+        <span style="font-size:0.8rem;opacity:0.8">※お一人様1回限り</span>
+      </div>
+      <div class="fade-in" style="margin-top:40px;padding:24px;background:var(--white);border-radius:8px;border:1px solid var(--border)">
+        <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:16px">料金についてのご注意</h3>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;font-size:0.85rem;color:var(--text-sub)">
+          <li>・すべての料金は税込表示です</li>
+          <li>・初回体験はお一人様1回限りです</li>
+          <li>・完全予約制のため、来院前にお電話またはフォームよりご予約ください</li>
+          <li>・キャンセルは前日までにご連絡ください（当日キャンセルはキャンセル料が発生します）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTAバンド -->
+  <section style="background:var(--navy);padding:64px 0;text-align:center">
+    <div class="container">
+      <h2 style="color:#fff;font-size:1.5rem;font-weight:700;margin-bottom:28px">まずはご予約・お問い合わせから</h2>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+        <a href="tel:0586-XX-XXXX" class="btn-primary-hero" style="font-size:0.95rem">📞 今すぐ電話予約</a>
+        <a href="access.html" class="btn-outline-hero" style="font-size:0.95rem">フォームで予約</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p class="footer-logo">はるかぜ整体院</p>
+    <nav style="margin:12px 0;display:flex;gap:24px;justify-content:center;flex-wrap:wrap">
+      <a href="menu.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">施術メニュー</a>
+      <a href="staff.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">院長・当院について</a>
+      <a href="faq.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">よくある質問</a>
+      <a href="access.html" style="color:rgba(255,255,255,0.5);font-size:0.8rem">アクセス・予約</a>
+    </nav>
+    <p>〒491-XXXX 愛知県一宮市栄2-10-XX　TEL: 0586-XX-XXXX</p>
+    <p style="margin-top:6px">© 2024 はるかぜ整体院</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
